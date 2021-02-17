@@ -1,5 +1,7 @@
 import React from 'react'
 import FilterComponent from './FilterComponent'
+import Shopboard from './Shopboard'
+
 import './style/Shop.css'
 
 function Shop() {
@@ -7,6 +9,7 @@ function Shop() {
         <div>
             Shop
             <FilterComponent/>
+            <Shopboard />
         </div>
     )
 }

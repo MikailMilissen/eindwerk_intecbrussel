@@ -1,3 +1,21 @@
+# Title
+
+Eindwerk Intec Brussel
+
+# Authors
+
+Priya, Mikail, Susan
+
+# Tasks
+
+- Adobe Sketch XD
+- Building Components
+- Routing (Mikail)
+- Reactstrap (Susan)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

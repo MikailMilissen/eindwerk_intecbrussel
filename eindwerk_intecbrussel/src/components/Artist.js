@@ -1,14 +1,14 @@
 import React from 'react'
 import FilterComponent from './FilterComponent'
-import './style/Artists.css'
+import './style/Artist.css'
 
-function Artists() {
+function Artist() {
     return (
         <div>
-            Artists
-            <FilterComponent/>
+            Artist
+            
         </div>
     )
 }
 
-export default Artists
+export default Artist
