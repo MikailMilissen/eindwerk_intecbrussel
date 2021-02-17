@@ -4,7 +4,7 @@ import './style/Account.css'
 function Account() {
     return (
         <div>
-            Account pagina
+            Account page
         </div>
     )
 }
