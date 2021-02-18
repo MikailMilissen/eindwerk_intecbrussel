@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style/Message.css'
 
-function Message() {
+const Message = ({ messages, title }) => {
+    
+    
+
     return (
         <div>
-            This is a message
+            <h1>{title}</h1>
+            {messages.map((message)=>(
+                <div className="messageboard_preview" key={message.id}>
+                    <h2>{ message.title }</h2>
+                    <p>{ message.body }</p>
+                    <p>Written by { message.author }</p>
+                   
+                </div>
+            ))}
         </div>
     )
 }
