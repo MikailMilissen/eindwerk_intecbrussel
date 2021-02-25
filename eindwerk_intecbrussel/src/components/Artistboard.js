@@ -8,7 +8,9 @@ function Artistboard() {
         <div>
             Artist Board
             <FilterComponent />
+            <CardGroup>
             <Artist />
+            </CardGroup>
         </div>
     )
 }

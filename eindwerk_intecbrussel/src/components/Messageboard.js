@@ -34,6 +34,8 @@ const Messageboard = () => {
         <div className='Messageboard'>
             { isPending && <div>Loading...</div>}
             {messages && <Message messages={messages} title='This is our messageboard' /> }
+            <h1>Messageboard</h1>
+            <FilterComponent/>
         </div>
         
      );

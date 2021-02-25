@@ -13,7 +13,8 @@ const Message = ({ messages, title }) => {
                     <h2>{ message.title }</h2>
                     <p>{ message.body }</p>
                     <p>Written by { message.author }</p>
-                   
+                    <Button>see whole message</Button>
+                    <Button>respond to message</Button>
                 </div>
             ))}
         </div>
