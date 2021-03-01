@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <div>
             <nav>
-                <Link to='/'><h3>Logo</h3></Link>
+                <Link to='/'><h1>Logo</h1></Link>
                 <ul>
                     <Link to='/messageboard'><li>Messageboard</li></Link>
                     <Link to='/artistboard'><li>Artiesten</li></Link>

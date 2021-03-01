@@ -6,9 +6,17 @@ import './style/Shopboard.css'
 function Shopboard() {
     return (
         <div>
+            <h1>Shop</h1>
             This is the Shop Board
-            <FilterComponent />
-            <ShopItem />
+            <FilterComponent/>
+            <CardGroup className ="shopitemgallery">
+                <ShopItem />
+                <ShopItem />
+                <ShopItem />
+                <ShopItem />
+                <ShopItem />
+                <ShopItem />
+            </CardGroup>
         </div>
     )
 }
