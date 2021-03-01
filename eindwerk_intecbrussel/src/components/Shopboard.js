@@ -7,6 +7,7 @@ function Shopboard() {
     return (
         <div>
             This is the Shop Board
+            <FilterComponent />
             <ShopItem />
         </div>
     )

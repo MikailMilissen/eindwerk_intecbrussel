@@ -35,8 +35,6 @@ const Messageboard = () => {
             { isPending && <div>Loading...</div>}
             {messages && <Message messages={messages} title='This is our messageboard' /> }
         </div>
-        
      );
 }
- 
 export default Messageboard;
