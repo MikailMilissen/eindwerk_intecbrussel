@@ -1,7 +1,7 @@
 import React from 'react'
 import './style/ShopItem.css'
 
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron, Button, Card, CardImg, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 
 function ShopItem() {
     return (

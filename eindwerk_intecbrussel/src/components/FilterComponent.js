@@ -1,7 +1,7 @@
 import React from 'react'
 import './style/FilterComponent.css'
 
-import { CustomInput, Form, FormGroup, Label } from 'reactstrap';
+import { CustomInput, Form, FormGroup, Label, Input, Button } from 'reactstrap';
 
 function FilterComponent() {
     return (
