@@ -13,9 +13,6 @@ Priya, Mikail, Susan
 - Routing (Mikail)
 - Reactstrap (Susan)
 
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -86,3 +83,57 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+SLA PLATFORM STYLING:
+
+Speciale lettertype :
+Reflector
+(Altijd in hoofdletters gebruiken)
+
+Gewone tekst en titels lettertype :
+Poppins
+
+Toepassing:
+-titeltjes en navaar buttons
+Centreren
+Poppins SemiBold 22pt
+
+-gewone tekst
+tekst componenten in centreren, tekst links uitlijnen
+Poppins Regular 15pt
+
+Lijntjes
+Zwart 2px (denk ik)
+
+Icoontjes cart & account:
+Onder elkaar zetten rechts centrum uitlijnen
+Width : 50px 
+Height : 50px 
+
+Groot logo landingpage:
+Centreren
+Width: 378px
+Height: 847px
+
+Gewoon logo in ballon links hoek:
+Links uitlijnen
+Width : 290px
+Height : 264px
+
+Slogan img:
+Centreren in hoofding
+Width : 282px
+Height :  74px
+
+Componenten :
+
+Kleur : wit
+Afgeronde hoeken .. border radius ?
+  box-shadow: 0px 3px 9px #0000000D;
+  opacity: 1;
+
+Kleuren:
+Wit : #FFFFFF
+Zwart : #000000
+Munt groen : #A0D4CE
