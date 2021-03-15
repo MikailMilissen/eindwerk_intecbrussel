@@ -1,0 +1,43 @@
+.text-link{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav__logo{
+    width: 250px;
+   
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: Reflector;
+}
+
+.nav__logo span{
+    margin-left: 30px;
+    font-family: Reflector;
+}
+
+.nav__links{
+    display: flex;
+    margin-right: 10px;  
+}
+
+.nav__links a li{
+    display: flex;
+    margin: 12px 8px 0 8px;
+    font-family: Reflector;
+    border-top: 2px solid black;
+    
+}
+
+.navigation img{
+    width: 40px;
+    margin: 0 5px 0 5px;
+}

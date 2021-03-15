@@ -1,0 +1,60 @@
+#Homepage{
+    height: 100vh;
+}
+
+.home__logo{
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+    width: 25%;
+}
+
+.arrow__down{
+    bottom: 10px;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position:absolute
+}
+
+#Aboutpage{
+    height: 100vh;
+}
+
+.arrow__down__ref{
+    text-decoration: none;
+    color:#A0D4CE;
+}
+
+.about__logo{
+    width: 35%;
+    top: 150%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+}
+
+.about__text{
+    width: 40%;
+    top: 140%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+}
+
+.about__text h1{
+    text-align: center;
+}
+
+.contact__text{
+    width: 40%;
+    top: 180%;
+    left: 50%;
+    transform: translate3d(-50%,-50%, 0);
+    position: absolute;
+    
+}
+
+.contact__text h1{
+    text-align: center;
+}
