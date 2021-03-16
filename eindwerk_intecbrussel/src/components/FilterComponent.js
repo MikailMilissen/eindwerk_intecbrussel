@@ -1,11 +1,11 @@
 import React from 'react'
 import './style/FilterComponent.css'
 
-import { CustomInput, Form, FormGroup, Label, Input, Button } from 'reactstrap';
+import { CustomInput, Form, FormGroup, Label, Input, Button, Col, Row } from 'reactstrap';
 
 function FilterComponent() {
     return (
-        <div>
+        <div className='filter__container'>
             <form>
             <h3>Filtercomponent</h3>
             <FormGroup>
@@ -14,7 +14,7 @@ function FilterComponent() {
                     type="search"
                     name="search"
                     id="exampleSearch"
-                    placeholder="search placeholder"
+                    placeholder="SEARCH"
                 />
             </FormGroup>
             <FormGroup>
@@ -30,9 +30,11 @@ function FilterComponent() {
                     <CustomInput type="switch" id="exampleCustomSwitch2" name="customSwitch" label="Turn on this custom switch" />
                 </div>
             </FormGroup>
-            <Button>Apply Filters</Button>
+            <Button color="primary">Apply Filters</Button><br />
             <Button>Clear Filters</Button>
+         
             </form>
+            
         </div>
     )
 }
