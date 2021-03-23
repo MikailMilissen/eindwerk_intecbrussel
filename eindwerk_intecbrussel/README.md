@@ -1,17 +1,20 @@
 # Title
 
-Eindwerk Intec Brussel
+Support your Local Artist - Social Media Platform - Eindwerk Intec Brussel
+
+# Description
+
+'Support your Local Artists' is a social media platform which connects artists with eacother and also the rest of the world.
+It consist of 3 main components:
+- A messageboard where artists can request, search and try to connect with eactother
+- A shop where artists can sell there artwork or services.
+- An artist page where people can find artists by skill, interest and hobbies.
 
 # Authors
 
-Priya, Mikail, Susan
-
-# Tasks
-
-- Adobe Sketch XD
-- Building Components
-- Routing (Mikail)
-- Reactstrap (Susan)
+Priya Ved
+Mikail Milissen
+Susan Kuijpers
 
 # Getting Started with Create React App
 
