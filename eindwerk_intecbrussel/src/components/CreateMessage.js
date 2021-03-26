@@ -5,7 +5,10 @@ import {Link} from 'react-router-dom'
 function CreateMessage() {
     return (
         <div>
-            <h1> This is where you create a message </h1>
+                <Button>
+                <img src="images/sla icon .png" className="about__logo"/> 
+                Create a new message
+                </Button>
         </div>
     )
 }

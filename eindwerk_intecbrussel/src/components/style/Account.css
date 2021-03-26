@@ -1,0 +1,78 @@
+.Account__Body {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
+.card__Body {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    width: 50%;
+
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  9px 9px 18px #e6e6e6,
+                 -9px -9px 18px #ffffff;
+}
+
+.card__img {
+border-radius: 50%;
+width: 40%;
+
+left: 30%;
+right: 25%;
+}
+
+.account__title{
+    font-family: reflector;
+    color:#A0D4CE;
+}
+
+.card__title{
+   font-weight: bold;
+}
+
+.text{
+    font-size: small;
+ }
+
+.textarea{
+    height: 50px;
+    width: 40%;
+
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #e6e6e6,
+                inset -5px -5px 10px #ffffff;
+}
+
+.additem__button {
+    font-size: medium;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 10px;
+
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    background-color: white;
+    border-style: solid;
+}

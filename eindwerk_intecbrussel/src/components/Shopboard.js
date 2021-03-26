@@ -7,8 +7,8 @@ import { CardGroup} from 'reactstrap'
 function Shopboard() {
     return (
         <div>
-            <h1>Shop</h1>
-            This is the Shop Board
+            <h1 className="titel">SHOP</h1>
+            
             <FilterComponent/>
             <CardGroup className ="shopitemgallery">
                 <ShopItem />

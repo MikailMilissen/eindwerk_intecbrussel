@@ -17,7 +17,7 @@ function Navigation() {
             <li>SHOP</li>
           </Link>
           <Link to="/artistboard" className="text-link">
-            <li>ArTISTS</li>
+            <li>ARTISTS</li>
           </Link>
           <Link to="/shopcart">
           <img

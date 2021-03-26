@@ -1,0 +1,28 @@
+.title{
+    margin: 12px 8px 0 8px;
+    font-family: Reflector;
+    color:#A0D4CE;
+
+    align-self: center;
+    text-align: center;
+    align-content: center;
+}
+
+/* create that awesome grid batch */
+
+.message__board{
+    width: 100%;
+    }
+
+.filter__container{
+width: 20%;
+    }
+
+.message__container{
+    width: 40%;
+    }
+
+.createmessage__button{
+    align-items: center;
+    color: black;
+    }

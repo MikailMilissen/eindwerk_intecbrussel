@@ -7,12 +7,12 @@ import { Card, CardBody, Button, CardGroup, CardTitle, CardText, CardImg } from 
 function Artist() {
     return (
         <div>
-        <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+        <Card className="Card__Body">
+        <CardImg className="Card__img" top width="100%" src="images/drawing2.jpg" alt="Card image cap" />
         <CardBody>
-            <CardTitle tag="h5">Artists Name</CardTitle>
-            <CardText>Short Artists info lorem ipsum</CardText>
-            <Button>More info</Button>
+            <CardTitle tag="h5">Artists</CardTitle>
+            <CardText className="Card__Text">Short Artists info lorem ipsum</CardText>
+            <Button className="info__button">More info</Button>
         </CardBody>
         </Card>
         </div>

@@ -7,7 +7,7 @@ import {CardGroup} from 'reactstrap'
 function Artistboard() {
     return (
         <div>
-            Artist Board
+            <h1 className="titel">ARTISTS</h1>
             <FilterComponent />
             <CardGroup>
             <Artist />

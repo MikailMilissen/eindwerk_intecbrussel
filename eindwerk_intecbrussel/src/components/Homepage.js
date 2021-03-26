@@ -10,30 +10,40 @@ function Homepage() {
     <div className="home__container">
 
       <div id="Homepage">
-          <img src="images/sla_logo_home.png" className="home__logo"/>
-          <a href="#Aboutpage" className="arrow__down__ref">
+        <div>
+        <img src="images/sla_logo_home.png" className="home__logo"/>
+        </div>
+        <div>
+        <br />
+        <a href="#Aboutpage" className="arrow__down__ref">
           <ArrowDownwardIcon style={{ fontSize: 60 }} className="arrow__down" />
           </a>
+          <br />
+        </div>
       </div>
 
       <div id="Aboutpage">
-        <img src="images/sla_logo_green.png" className="about__logo"/> 
-
+      <br />
       <div className="about__text">
         <h1>ABOUT</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quas vitae dolore similique porro culpa corporis consequatur exercitationem voluptatum amet fugiat obcaecati distinctio soluta illo architecto, dignissimos nesciunt nemo deserunt?
-        Iure obcaecati beatae porro architecto itaque nihil suscipit id deleniti voluptate! Porro, tempore veniam! Tenetur accusantium aperiam atque nisi eos aut, fugit, officiis dolorum unde mollitia quas aliquid laborum odit.
-        Voluptate labore iste corrupti temporibus autem ullam, est debitis aspernatur adipisci aut quam id at quis. Animi ea, dolore aliquam quam harum ullam corporis minus repellat culpa facere fugiat nihil!</p>
-      </div>
-      <div className="contact__text">
+        <br />
+        <p>SLA Platform is a social platform and online store<br />
+        that helps to support local artists in Belgium.</p>
+        <br />
+        <br />
         <h1>CONTACT</h1>
-        <p>You can follow and contact us on:
-          Email: somethingsomething@gmail.com
-          Tel.: 04 74 57 68 51
-          instagram: @somethingsomething
-          Linkedin: @somethingsomething</p>
+        <br />
+        <p>You can follow and contact us on:<br />
+        Email: <a className="link" href="mailto: slaplatform@gmail.com">slaplatform@gmail.com</a><br />
+        Tel.: 04 74 57 68 51<br />
+        instagram: @slaplatform<br />
+        Linkedin: @slaplatform</p>
       </div>
+      
+      <img src="images/drawing1 ZW.jpg" className="about__img"/>
+
       </div>
+      
     </div>
     )
 }

@@ -1,25 +1,17 @@
+/*Homepage div*/
+
+/*
+.home__container {
+display: grid
+}*/
+
 #Homepage{
-    height: 100vh;
-    
+    text-align: center;
 }
 
 .home__logo{
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%,-50%, 0);
-    position: absolute;
-    width: 25%;
-}
-
-.arrow__down{
-    bottom: 10px;
-    left: 50%;
-    transform: translate3d(-50%,-50%, 0);
-    position:absolute
-}
-
-#Aboutpage{
-    height: 100vh;
+    width: 15%;
+    margin-bottom: 1rem;
 }
 
 .arrow__down__ref{
@@ -27,35 +19,53 @@
     color:#A0D4CE;
 }
 
-.about__logo{
-    width: 35%;
-    top: 150%;
-    left: 50%;
-    transform: translate3d(-50%,-50%, 0);
-    position: absolute;
+
+/*About rowdiv*/
+#Aboutpage{
+    position: relative;
+}
+
+.about__img{
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+
+    display: flex;
+    position: relative;
+    z-index: -20;
+
+    align-items: center;
+    align-self: center;
+    text-align: center;
 }
 
 .about__text{
-    width: 40%;
-    top: 140%;
-    left: 50%;
-    transform: translate3d(-50%,-50%, 0);
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   margin-bottom: 2rem;
+
+   align-items: center;
+   align-self: center;
+   text-align: center;
 }
 
 .about__text h1{
-    text-align: center;
+   font-family: Reflector; 
+
+   align-items: center;
+   align-self: center;
+   text-align: center;
 }
 
-.contact__text{
-    width: 40%;
-    top: 180%;
-    left: 50%;
-    transform: translate3d(-50%,-50%, 0);
-    position: absolute;
-    
+.link{
+    color: black;
+    font-weight: bold;
 }
 
-.contact__text h1{
-    text-align: center;
+.link :hover{
+    color:#A0D4CE;
+    font-weight: bold;
 }

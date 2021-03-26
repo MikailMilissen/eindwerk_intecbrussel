@@ -14,13 +14,25 @@ const Messageboard = () => {
 
     return ( 
         <div className='Messageboard'>
-            <Link to='/messageboard/createmessage'>
-            Create a new message
-            </Link>
             { isPending && <div>Loading...</div>}
+
+            <h1 className="title">MESSAGEBOARD</h1>
+
+            <div class="message__container">
             {messages && <Message messages={messages} title='This is our messageboard' /> }
-            <h1>Messageboard</h1>
+            </div>
+
+            <div class="filter__continer">
             <FilterComponent/>
+            </div>
+            
+                        
+            <Link to='/messageboard/createmessage'>
+            <img src="images/sla icon .png" className="createmessage__button"/> 
+            <br />
+            Create message
+            </Link>
+
         </div>
      );
 }

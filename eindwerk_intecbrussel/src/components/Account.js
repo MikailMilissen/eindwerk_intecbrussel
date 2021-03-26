@@ -8,31 +8,35 @@ import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 function Account() {
     return (
         <div>
-        <Card>
-            <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
-            <CardBody>
-            <CardTitle tag="h5">Account Name</CardTitle>
+        <Card className="Account__Body">
 
-            <CardText>Bio</CardText>
+            <CardBody className="card__Body">
+
+            <CardImg className="card__img" top width="100%" src="/images/drawing3 account foto.jpg" alt="Card image cap" /><br />
+            <CardTitle className="account__title" tag="h1">ACCOUNT NAME</CardTitle><br />
+
+            <CardText className="card__title">Bio</CardText>
             <FormGroup className="BioArea" >
-                <Label for="exampleText">Bio/text Area</Label>
-                <Input type="textarea" name="text" id="exampleText" />
+                <Label className="text" for="exampleText">Bio/text Area</Label><br />
+                <Input className="textarea" type="textarea" name="text" id="exampleText" />
             </FormGroup>
-            <Button>add Bio</Button>
-
-            <CardText>Contact</CardText>
+            <Button className="additem__button">add Bio</Button><br />
+            <br />
+            <CardText className="card__title">Contact</CardText>
             <FormGroup className="contactArea" >
-                <Label for="exampleText">contact/text Area</Label>
-                <Input type="textarea" name="text" id="exampleText" />
+                <Label className="text" for="exampleText">contact/text Area</Label><br />
+                <Input className="textarea" type="textarea" name="text" id="exampleText" /><br />
             </FormGroup>
-            <Button>add Contact info</Button>
+            <Button className="additem__button">add Info</Button>
+            
+            </CardBody>
 
             <FormGroup className="shopitemArea">
                 <ShopItem />
             </FormGroup>
-            <Button>add shop item</Button>
+
+            <Button className="additem__button" >add shop item</Button>
             
-            </CardBody>
         </Card>
         </div>
     )

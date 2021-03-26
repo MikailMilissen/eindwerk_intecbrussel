@@ -1,1 +1,15 @@
-
+.filter__container{
+    text-align: left;
+     
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+ 
+     width: 200px;
+     
+     border-radius: 20px;
+     background: #ffffff;
+     box-shadow:  13px 13px 26px #d9d9d9,
+                  -13px -13px 26px #ffffff;
+ }

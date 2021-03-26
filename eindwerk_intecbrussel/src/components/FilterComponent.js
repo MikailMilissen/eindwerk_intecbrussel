@@ -1,37 +1,40 @@
 import React from 'react'
 import './style/FilterComponent.css'
 
-import { CustomInput, Form, FormGroup, Label, Input, Button, Col, Row } from 'reactstrap';
+import { CustomInput, Form, FormGroup, Label, Input, Button, Col, Row, Switch } from 'reactstrap';
 
 function FilterComponent() {
     return (
         <div className='filter__container'>
             <form>
-            <h3>Filtercomponent</h3>
-            <FormGroup>
-                <Label for="exampleSearch">Search</Label>
+            <h3>Filter</h3>
+            <FormGroup className="switch__container">
+                <FormGroup>
                 <Input
                     type="search"
                     name="search"
                     id="exampleSearch"
                     placeholder="SEARCH"
                 />
-            </FormGroup>
-            <FormGroup>
-                <Label for="exampleCheckbox">Switches</Label>
+                </FormGroup>
+
                 <div>
-                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch2" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch2" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch2" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Turn on this custom switch" />
-                    <CustomInput type="switch" id="exampleCustomSwitch2" name="customSwitch" label="Turn on this custom switch" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
+                    <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
                 </div>
             </FormGroup>
-            <Button color="primary">Apply Filters</Button><br />
-            <Button>Clear Filters</Button>
+            <div>
+            <Button for="exampleSearch" className="search__button">Search</Button>
+            </div>
+            <div>
+            <Button className="clear__button">Clear Filters</Button>
+            </div>
          
             </form>
             
