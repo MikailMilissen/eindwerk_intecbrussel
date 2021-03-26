@@ -42,6 +42,7 @@ Account
 - create dropdown with Login en Register button(S)
 - create shopping cart logo color green(S)
 - change color account icon if person logged in to green (M)
+- have fun while doing all of this :)
 
 
 
