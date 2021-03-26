@@ -33,18 +33,16 @@ width: 150px;
 
 .search__button{
     font-size: medium;
-
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 10px;
     padding-right: 10px;
-
     margin-top: 10px;
-
+    color: black !important;
     border-radius: 10px;
     border-color: black;
-    border-width: 2px;
-    background-color: white;
+    border-width: 2px !important;
+    background-color: rgb(255, 255, 255) !important;
     border-style: solid;
 }
 
@@ -60,9 +58,9 @@ width: 150px;
     margin-top: 5px;
 
     border-radius: 10px;
-    border-color: black;
+    border-color: black !important;
     border-width: 2px;
-    background-color: black;
+    background-color: black !important;
     border-style: solid;
 }
 

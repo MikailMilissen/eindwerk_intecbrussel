@@ -12,17 +12,17 @@
 
 .message__board{
     width: 100%;
-    }
+}
 
 .filter__container{
 width: 20%;
-    }
+}
 
 .message__container{
     width: 40%;
-    }
+}
 
 .createmessage__button{
     align-items: center;
     color: black;
-    }
+}
