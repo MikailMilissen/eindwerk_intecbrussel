@@ -7,8 +7,6 @@ import Message from './Message';
 import './style/Messageboard.css';
 import useFetch from './useFetch';
 
-
-
 const Messageboard = () => {
     const {data: messages, isPending, error} = useFetch('http://localhost:8000/messages')
 
