@@ -1,8 +1,11 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import "./style/Navigationbar.css";
 
 function Navigation() {
+  
+  const [picture, setPicture] = useState("images/sla_icon_account.png")
+
   return (
     <div>
       <nav className="navigation">
@@ -26,7 +29,7 @@ function Navigation() {
           </Link>
           <Link to="/account">
             <img
-              src="images/sla_icon_account.png"
+              src={picture}
             />
           </Link>
         </ul>
