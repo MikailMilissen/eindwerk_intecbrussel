@@ -17,9 +17,12 @@ Mikail Milissen
 Susan Kuijpers
 
 # Tasks 
-
+Home
 - Migrate About page to new component (M)
-- Add button to Homepage, redirect to => About page (S)
+- Add button to Homepage, redirect to => About page (in big logo hyperlink) (S)
+- Create footer (S)
+- create hamburger menu icon
+- Mobile Friendly!! 
 Messageboard
 - create grid layout(S)
 - setup json-server (M)
