@@ -22,6 +22,9 @@ function Navigation() {
           <Link to="/artistboard" className="text-link">
             <li>ARTISTS</li>
           </Link>
+          <Link to="/about" className="text-link">
+            <li>ABOUT</li>
+          </Link>
           <Link to="/shopcart">
           <img
               src="images/sla_icon_shop.png"
