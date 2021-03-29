@@ -19,7 +19,7 @@ Susan Kuijpers
 # Tasks 
 Home
 - Migrate About page to new component (M)
-- Add button to Homepage, redirect to => About page (in big logo hyperlink) (S)
+- Add button to Homepage, redirect to => About page (in big logo hyperlink) (S) V
 - Create footer (S) V
 - create hamburger menu icon V
 - Mobile Friendly!! 
