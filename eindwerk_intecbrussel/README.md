@@ -29,6 +29,8 @@ Messageboard
 - migrate to firebase database(M)
 - build 'new message' component (M) ✓
 - build 'new message' button(S) ✓
+MessageLong
+- Styling (S)
 Shop
 - create grid layout(S)
 - setup json-server (M)
