@@ -10,7 +10,7 @@ function Navigation() {
     <div>
       <nav className="navigation">
         <Link to="/" className="text-link">
-          <h1 className="nav__logo">SUPPORT YOUR <span>LOCAL ARTISTS</span></h1>
+          <img src="images/sla slogan .png" className="nav__logo" />
         </Link>
         <ul className="nav__links" >
           <Link to="/messageboard" className="text-link">

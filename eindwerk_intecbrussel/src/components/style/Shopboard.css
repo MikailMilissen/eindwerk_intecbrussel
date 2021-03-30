@@ -7,3 +7,13 @@
     text-align: center;
     align-content: center;
 }
+
+.item1 {
+    grid-area: myArea;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
+    grid-gap: 5px;
+  }
