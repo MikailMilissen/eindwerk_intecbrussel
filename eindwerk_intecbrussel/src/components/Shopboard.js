@@ -19,6 +19,19 @@ function Shopboard() {
                 <ShopItem />
             </CardGroup>
         </div>
+
+<div className ="grid-container">
+
+<div className ="item1"> <FilterComponent/> </div>
+<div className ="item2"><ShopItem /></div>
+<div className ="item3"><ShopItem /></div>  
+<div className ="item4"><ShopItem /></div>
+<div className ="item5"><ShopItem /></div>
+<div className ="item6"><ShopItem /></div>
+<div className ="item7"><ShopItem /></div>
+
+</div>
+
     )
 }
 
