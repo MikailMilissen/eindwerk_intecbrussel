@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import CreateMessage from './CreateMessage';
+
 
 import FilterComponent from './FilterComponent';
 import Message from './Message';
@@ -8,7 +8,7 @@ import './style/Messageboard.css';
 import useFetch from './useFetch';
 
 const Messageboard = () => {
-    const {data: messages, isPending, error} = useFetch('http://localhost:8000/messages')
+    const {data: messages, isPending, error} = useFetch('http://localhost:3000/messages') // Change Server Port if needed
 
     return ( 
         <div className='Messageboard'>

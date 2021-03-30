@@ -11,6 +11,8 @@ import ShopCart from './components/ShopCart';
 import Register from './components/Register';
 import Login from './components/Login';
 import { AuthProvider } from './components/contexts/AuthContext';
+import CreateMessage from './components/CreateMessage';
+import MessageLong from './components/MessageLong';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <Route path='/account' exact component={Account} />
         <Route path='/register' exact component={Register} />
         <Route path='/login' exact component={Login} />
+        <Route path='/messageboard/createmessage' exact component={CreateMessage} />
+        <Route path='/messages/:id' exact component={MessageLong} />
        </Switch>
     </Router>
     </AuthProvider>

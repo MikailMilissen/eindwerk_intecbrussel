@@ -1,0 +1,13 @@
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .create label {
+    text-align: left;
+    display: block;
+  }
+  .create h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }

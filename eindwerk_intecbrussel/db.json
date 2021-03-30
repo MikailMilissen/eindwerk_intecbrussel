@@ -15,32 +15,31 @@
   ],
   "profile": {
     "name": "typicode"
-  }
-
-  "messages":[
-      {
-          "title":"My First Message",
-          "body": "This is my first message and I would like to get in contact with an artist",
-          "author":"Mikail",
-          "id":1
-      },
-      {
-          "title":"Looking for a project",
-          "body": "Hi everybody, I am looking for a new project in the line of graphic design",
-          "author":"Susan",
-          "id":2
-      },
-      {
-          "title":"Internship wanted",
-          "body": "Hello, if anybody knows of a good intershop, please let me know",
-          "author":"Priya",
-          "id":3
-      },
-      {
-          "title":"My First robot",
-          "body": "I designed my first robot and I want to show my progress",
-          "author":"Emmanuel",
-          "id":4
-      }
+  },
+  "messages": [
+    {
+      "title": "My First Message",
+      "body": "This is my first message and I would like to get in contact with an artist",
+      "author": "Mikail",
+      "id": 1
+    },
+    {
+      "title": "Looking for a project",
+      "body": "Hi everybody, I am looking for a new project in the line of graphic design",
+      "author": "Susan",
+      "id": 2
+    },
+    {
+      "title": "Internship wanted",
+      "body": "Hello, if anybody knows of a good intershop, please let me know",
+      "author": "Priya",
+      "id": 3
+    },
+    {
+      "title": "My First robot",
+      "body": "I designed my first robot and I want to show my progress",
+      "author": "Emmanuel",
+      "id": 4
+    }
   ]
 }
