@@ -1,13 +1,21 @@
-.filter__container{
+.messageboard_preview{
     text-align: left;
      
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 20px;
- 
-     width: 200px;
+
+    width: 60% !important;
+
+     border-radius: 20px;
+     background: #ffffff;
+     box-shadow:  13px 13px 26px #d9d9d9,
+                  -13px -13px 26px #ffffff;
+ }
+
+.message_div{
+    text-align: left;
      
+    padding: 40px !important;
+    width: 60% !important;
+
      border-radius: 20px;
      background: #ffffff;
      box-shadow:  13px 13px 26px #d9d9d9,

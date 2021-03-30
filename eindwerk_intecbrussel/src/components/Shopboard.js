@@ -2,7 +2,6 @@ import React from 'react'
 import FilterComponent from './FilterComponent'
 import ShopItem from './ShopItem'
 import './style/Shopboard.css'
-import { CardGroup} from 'reactstrap'
 
 function Shopboard() {
     return (
