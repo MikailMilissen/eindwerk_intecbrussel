@@ -18,17 +18,17 @@ Susan Kuijpers
 
 # Tasks 
 Home
-- Migrate About page to new component (M)
+- Migrate About page to new component (M) ✓
 - Add button to Homepage, redirect to => About page (in big logo hyperlink) (S) V
 - Create footer (S) V
 - create hamburger menu icon V
 - Mobile Friendly!! 
 Messageboard
 - create grid layout(S)
-- setup json-server (M)
+- setup json-server (M) ✓
 - migrate to firebase database(M)
-- build 'new message' component (M)
-- build 'new message' button(S)
+- build 'new message' component (M) ✓
+- build 'new message' button(S) ✓
 Shop
 - create grid layout(S)
 - setup json-server (M)

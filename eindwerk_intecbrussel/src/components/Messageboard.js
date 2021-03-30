@@ -23,8 +23,6 @@ const Messageboard = () => {
             <div class="filter__continer">
             <FilterComponent/>
             </div>
-            
-                        
             <Link to='/messageboard/createmessage'>
             <img src="images/sla icon .png" className="createmessage__button"/> 
             <br />
