@@ -32,7 +32,7 @@ Messageboard
 MessageLong
 - Styling (S)
 Shop
-- create grid layout(S)
+- create grid layout(S) V
 - setup json-server (M)
 - migrate to firebase database (M)
 Artists
