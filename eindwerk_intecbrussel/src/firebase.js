@@ -9,8 +9,6 @@ projectId: "syla-development",
 storageBucket: "syla-development.appspot.com",
 messagingSenderId: "789699804018",
 appId: "1:789699804018:web:42f89df2ace0a3b6587beb"
-
-    
 })
 
 export const auth = app.auth()
