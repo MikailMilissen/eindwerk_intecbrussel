@@ -28,7 +28,6 @@ const Messageboard = () => {
             <br />
             Create message
             </Link>
-
         </div>
      );
 }

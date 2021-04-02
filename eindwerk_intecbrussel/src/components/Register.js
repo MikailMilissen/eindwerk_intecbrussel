@@ -10,7 +10,7 @@ export default function Register() {
     const passwordRef = useRef()
     const passwordConfirmRef = useRef()
     const { register } = useAuth()
-    const [error, setError] = useState("dit is de state")
+    const [error, setError] = useState("")
     const [succes, setSucces] = useState("")
     const [loading, setLoading] = useState(false)
     const history = useHistory()
