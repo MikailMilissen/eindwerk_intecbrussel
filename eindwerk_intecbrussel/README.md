@@ -21,8 +21,9 @@ Home
 - Migrate About page to new component (M) ✓
 - Add button to Homepage, redirect to => About page (in big logo hyperlink) (S) V
 - Create footer (S) V
-- create hamburger menu icon V
+- create hamburger menu icon (S)
 - Mobile Friendly!! 
+- Add a Searchbar (M)
 Messageboard
 - create grid layout(S)
 - setup json-server (M) ✓
