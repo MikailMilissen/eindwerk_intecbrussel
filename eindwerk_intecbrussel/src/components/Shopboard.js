@@ -1,24 +1,30 @@
-import React from 'react'
-import FilterComponent from './FilterComponent'
+import React, {useState, useEffect} from 'react'
 import ShopItem from './ShopItem'
 import './style/Shopboard.css'
+import useFetch from './useFetch'
 
 function Shopboard() {
+
+    const {data: shopitems, isPending, error} = useFetch('http://localhost:3000/shopitems') // Change Server Port if needed
+
     return (
-        <div>
+        <div className="grid-container">
+            <div className="shopitemgallery">
+            
             <h1 className="titel">SHOP</h1>
+            { isPending && <div>Loading...</div>}
 
-        <div className ="grid-container">
+            <div class="shop__container">
+            {shopitems && <ShopItem shopitems={shopitems} title='This is our shop' /> }
+            </div>
+            </div>
 
-        <div className ="item1"> <FilterComponent/> </div>
-        <div className ="shopitemgallery"><ShopItem /></div>
-        <div className ="shopitemgallery"><ShopItem /></div>  
-        <div className ="shopitemgallery"><ShopItem /></div>
-        <div className ="shopitemgallery"><ShopItem /></div>
-        <div className ="shopitemgallery"><ShopItem /></div> 
-        <div className ="shopitemgallery"><ShopItem /></div>
+            
 
-        </div>
+
+        {/* <div className ="grid-container">
+        <div className ="shopitemgallery"><ShopItem /></div>
+        </div>  */}
 
         </div>
 
