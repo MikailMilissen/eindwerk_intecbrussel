@@ -69,3 +69,12 @@ display: grid
     color:#A0D4CE;
     font-weight: bold;
 }
+
+@media screen and (max-width: 960px) {
+    
+    .home__container{
+        max-width: 900px;
+    }
+  
+    
+  }
