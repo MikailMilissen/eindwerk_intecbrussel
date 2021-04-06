@@ -24,6 +24,6 @@ const Messageboard = () => {
             Create message
             </Link>
         </div>
-     );
+);
 }
 export default Messageboard;

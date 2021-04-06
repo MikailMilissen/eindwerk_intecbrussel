@@ -16,6 +16,7 @@ import MessageLong from './components/MessageLong';
 import ShopItem from './components/ShopItem';
 import Artist from './components/Artist';
 import About from './components/About'
+import AddShopItem from './components/AddShopItem';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path='/artistboard' exact component={Artistboard} />
         <Route path='/artists' exact component={Artist} />
         <Route path='/shop' exact component={Shopboard} />
+        <Route path='/shop/addshopitem' exact component={AddShopItem} />
         <Route path='/shopitem' exact component={ShopItem} />
         <Route exact path='/shopcart' exact component={ShopCart}/>
         <Route exact path='/account' exact component={Account} />
