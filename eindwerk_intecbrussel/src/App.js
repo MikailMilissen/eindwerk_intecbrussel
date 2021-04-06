@@ -14,6 +14,7 @@ import { AuthProvider } from './components/contexts/AuthContext';
 import CreateMessage from './components/CreateMessage';
 import MessageLong from './components/MessageLong';
 import ShopItem from './components/ShopItem';
+import Artist from './components/Artist';
 
 function App() {
   return (
@@ -26,10 +27,11 @@ function App() {
         <Route path='/messageboard/createmessage' exact component={CreateMessage} />
         <Route path='/messages/:id' exact component={MessageLong} />
         <Route path='/artistboard' exact component={Artistboard} />
+        <Route path='/artists' exact component={Artist} />
         <Route path='/shop' exact component={Shopboard} />
         <Route path='/shopitem' exact component={ShopItem} />
         <Route exact path='/shopcart' exact component={ShopCart}/>
-        <Route path='/account' exact component={Account} />
+        <Route exact path='/account' exact component={Account} />
         <Route path='/register' exact component={Register} />
         <Route path='/login' exact component={Login} />
         

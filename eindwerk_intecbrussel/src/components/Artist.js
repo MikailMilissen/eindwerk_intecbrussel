@@ -11,7 +11,7 @@ function Artist({artists,title}) {
         <Card className="Card__Body">
         <CardImg className="Card__img" top width="100%" src="images/drawing2.jpg" alt="Card image cap" />
         <CardBody>
-        <Link to={`/artitsts/${artists.id}`}>
+        <Link to={`/artists/${artists.id}`}>
          <CardTitle tag="h4">{artists.name}</CardTitle>
         </Link>
             <CardText className="Card__Text">{artists.bio}</CardText>

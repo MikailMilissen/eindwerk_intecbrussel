@@ -1,6 +1,6 @@
 import React from 'react'
 import './style/Account.css'
-import ShopItem from './ShopItem'
+
 
 import { Card, CardBody, Button, CardGroup, CardTitle, CardText, CardImg } from 'reactstrap';
 import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
@@ -32,7 +32,7 @@ function Account() {
             </CardBody>
 
             <FormGroup className="shopitemArea">
-                <ShopItem />
+                
             </FormGroup>
 
             <Button className="additem__button" >add shop item</Button>
