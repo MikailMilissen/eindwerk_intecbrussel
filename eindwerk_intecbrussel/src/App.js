@@ -15,6 +15,7 @@ import CreateMessage from './components/CreateMessage';
 import MessageLong from './components/MessageLong';
 import ShopItem from './components/ShopItem';
 import Artist from './components/Artist';
+import About from './components/About'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route exact path='/account' exact component={Account} />
         <Route path='/register' exact component={Register} />
         <Route path='/login' exact component={Login} />
+        <Route path='/about' exact component={About} />
         
        </Switch>
     </Router>
