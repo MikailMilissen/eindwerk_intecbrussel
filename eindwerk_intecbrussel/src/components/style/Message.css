@@ -16,8 +16,7 @@
 
     padding: 30px;
 
-
-    width: 350px !important;
+    min-width: 350px !important;
     min-height: 250px !important;
 
     border-radius: 20px;
@@ -31,6 +30,12 @@
      color: white;
 
      border:  none !important;
+
+     padding-top: 4px;
+     padding-bottom: 4px;
+     padding-left: 10px;
+     padding-right: 10px;
+ 
  }
 
  .button:hover {
