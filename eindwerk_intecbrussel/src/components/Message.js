@@ -12,11 +12,11 @@ const Message = ({ messages, title }) => {
                 
                     <div className="message_div" key={message.id}>
                     <Link to={`/messages/${message.id}`}>
-                        <h2>{ message.title }</h2>
+                        <h2>{ message.title }</h2></Link>
                         <p>{ message.body }</p>
                         <p>Written by { message.author }</p>
-                    <Button>see whole message</Button>
-                    </Link>
+                        <Link to={`/messages/${message.id}`}><Button className="button">see whole message</Button></Link>
+                
                     {/* <Button>respond to message</Button> */}
                     </div>
               

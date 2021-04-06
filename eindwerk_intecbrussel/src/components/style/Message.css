@@ -12,13 +12,36 @@
 
 .message_div{
     text-align: left;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    width: 150px !important;
+    color: black !important;
+
+    padding: 30px;
+
+
+    width: 350px !important;
+    min-height: 250px !important;
+
     border-radius: 20px;
     background: #ffffff;
     box-shadow: 13px 13px 26px #d9d9d9,
     -13px -13px 26px #ffffff;
+ }
+
+ .button {
+     background-color: black !important;
+     color: white;
+
+     border:  none !important;
+ }
+
+ .button:hover {
+    background-color: #A0D4CE!important;
+    color: white;
+
+    border:  none !important;
+ }
+
+ h2{
+    font-family: poppins;
+    font-weight: bold;
+    color:#A0D4CE;
  }
