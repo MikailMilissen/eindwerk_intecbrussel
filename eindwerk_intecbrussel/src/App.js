@@ -17,6 +17,8 @@ import ShopItem from './components/ShopItem';
 import Artist from './components/Artist';
 import About from './components/About'
 import AddShopItem from './components/AddShopItem';
+import ShopItemLong from './components/ShopItemLong';
+import ArtistLong from './components/ArtistLong';
 
 function App() {
   return (
@@ -30,9 +32,11 @@ function App() {
         <Route path='/messages/:id' exact component={MessageLong} />
         <Route path='/artistboard' exact component={Artistboard} />
         <Route path='/artists' exact component={Artist} />
+        <Route path='/artists/:id' exact component={ArtistLong} />
         <Route path='/shop' exact component={Shopboard} />
         <Route path='/shop/addshopitem' exact component={AddShopItem} />
         <Route path='/shopitem' exact component={ShopItem} />
+        <Route path='/shopitems/:id' exact component={ShopItemLong} />
         <Route exact path='/shopcart' exact component={ShopCart}/>
         <Route exact path='/account' exact component={Account} />
         <Route path='/register' exact component={Register} />

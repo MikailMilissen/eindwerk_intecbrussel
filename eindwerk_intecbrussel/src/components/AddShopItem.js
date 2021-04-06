@@ -5,6 +5,7 @@ import {useHistory} from 'react-router-dom'
 
 function AddShopItem() {
     const [title, setTitle] = useState('')
+    const [price, setPrice] = useState('')
     const [body, setBody] = useState('')
     const [isPending, setIsPending] = useState(false)
     const history = useHistory();
@@ -21,35 +22,37 @@ function AddShopItem() {
         }).then(() => {
             setIsPending(true)
             setTimeout(() =>{
-                history.push('/messageboard')
+                history.push('/shop')
             },2000)
         })
-        
     }
-
     return (
         <div className="create">
-            <h2>Add a New Message</h2>
+            <h2>Add a New Item to Sell</h2>
             <form onSubmit={handleSubmit}>
-                <label>Message Title: </label>
+                <label>Item Name: </label>
                     <input 
                     type="text"
                     required
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     />
-                <label>Message Body: </label>
+                <label>Price: </label>
+                    <input 
+                    type="text"
+                    required
+                    value={price}
+                    onChange={(e) => setPrice(e.target.value)}
+                    />
+                <label>Short Description: </label>
                 <textarea
                 required
                 value={body}
                 onChange={(e) => setBody(e.target.value)}>
                 </textarea>
-                {!isPending && <button>Add Message</button>}
+                {!isPending && <button>Add item</button>}
                 {isPending && <button disabled>Thank you for posting!</button>}
-                
-            
             </form>
-
         </div>
     )
 }
