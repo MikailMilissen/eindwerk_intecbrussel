@@ -9,8 +9,8 @@ const Message = ({ messages, title }) => {
         <div>
             <h1>{title}</h1>
             {messages.map((message)=>(
-                <div className="messageboard_preview" key={message.id}>
-                    <div className="message_div">
+                
+                    <div className="message_div" key={message.id}>
                     <Link to={`/messages/${message.id}`}>
                         <h2>{ message.title }</h2>
                         <p>{ message.body }</p>
@@ -19,7 +19,7 @@ const Message = ({ messages, title }) => {
                     </Link>
                     {/* <Button>respond to message</Button> */}
                     </div>
-                </div>
+              
             ))}
         </div>
     )
