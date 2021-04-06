@@ -1,20 +1,24 @@
-import React from 'react'
-import FilterComponent from './FilterComponent'
+import React, {useState} from 'react'
 import './style/Artist.css'
+import { Link } from 'react-router-dom'
 
 import { Card, CardBody, Button, CardGroup, CardTitle, CardText, CardImg } from 'reactstrap';
 
-function Artist() {
+function Artist({artists,title}) {
     return (
         <div>
+    {artists.map((artists) => (
         <Card className="Card__Body">
         <CardImg className="Card__img" top width="100%" src="images/drawing2.jpg" alt="Card image cap" />
         <CardBody>
-            <CardTitle tag="h5">Artists</CardTitle>
-            <CardText className="Card__Text">Short Artists info lorem ipsum</CardText>
+        <Link to={`/artitsts/${artists.id}`}>
+         <CardTitle tag="h4">{artists.name}</CardTitle>
+        </Link>
+            <CardText className="Card__Text">{artists.bio}</CardText>
             <Button className="info__button">More info</Button>
         </CardBody>
         </Card>
+        ))}
         </div>
     )
 }

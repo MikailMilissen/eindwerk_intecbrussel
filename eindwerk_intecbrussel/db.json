@@ -72,5 +72,25 @@
       "author": "Priya",
       "id": 3
     }
+  ],
+  "artists": [
+    {
+      "name": "Susan Kuijpers",
+      "image": "",
+      "bio": "Graphic designer",
+      "id": 1
+    },
+    {
+      "name": "Mikail Milissen",
+      "image": "",
+      "bio": "Product designer",
+      "id": 2
+    },
+    {
+      "name": "Priya Ved",
+      "image": "",
+      "bio": "HR Manager",
+      "id": 3
+    }
   ]
 }
