@@ -10,16 +10,8 @@
 
 /* create that awesome grid batch */
 
-.message__board{
+.Messageboard{
     width: 100%;
-}
-
-.filter__container{
-width: 20%;
-}
-
-.message__container{
-    width: 40%;
 }
 
 .createmessage__button{
@@ -27,3 +19,11 @@ width: 20%;
     color: black;
 }
 
+<<<<<<< HEAD
+=======
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+>>>>>>> c8cbd41552314118852c5fb6788e94c21f233bd9

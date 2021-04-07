@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 
-
-import FilterComponent from './FilterComponent';
 import Message from './Message';
 import './style/Messageboard.css';
 import useFetch from './useFetch';
@@ -16,10 +14,9 @@ const Messageboard = () => {
 
             <h1 className="title">MESSAGEBOARD</h1>
 
-            <div class="message__container">
+            <div className="grid-container">
             {messages && <Message messages={messages} title='This is our messageboard' /> }
             </div>
-
             
             <Link to='/messageboard/createmessage'>
             <img src="images/sla icon .png" className="createmessage__button"/> 
@@ -27,6 +24,6 @@ const Messageboard = () => {
             Create message
             </Link>
         </div>
-     );
+);
 }
 export default Messageboard;
