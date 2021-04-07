@@ -34,11 +34,11 @@ MessageLong
 - Styling (S)
 Shop
 - create grid layout(S) V
-- setup json-server (M)
+- setup json-server (M) ✓
 - migrate to firebase database (M)
 Artists
 - create grid layout(S)
-- setup json-server (M)
+- setup json-server (M) ✓
 - migrate to firebase database (M)
 ShopCart
 - create modal on homescreen (M)
