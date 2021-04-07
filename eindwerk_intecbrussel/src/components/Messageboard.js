@@ -15,7 +15,11 @@ const Messageboard = () => {
             <h1 className="title">MESSAGEBOARD</h1>
 
             <div className="grid-container">
-            {messages && <Message messages={messages} title='This is our messageboard' /> }
+            {messages && <Message messages={messages} className='Messages'/> }
+            {/* <div class="grid-item"><Message messages={messages} className='Messages'/> </div>
+            <div class="grid-item"><Message messages={messages} className='Messages'/> </div>
+            */}
+            
             </div>
             
             <Link to='/messageboard/createmessage'>
