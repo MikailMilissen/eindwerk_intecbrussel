@@ -33,22 +33,22 @@ function CreateMessage() {
 
     return (
         <div className="create">
-            <h2>Add a New Message</h2>
+            <h1>ADD A NEW MESSAGE</h1>
             <form onSubmit={handleSubmit}>
-                <label>Message Title: </label>
-                    <input 
+                <label><h5>Add title:</h5></label>
+                    <input className="textarea"
                     type="text"
                     required
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     />
-                <label>Message Body: </label>
-                <textarea
+                <label><h5>Add text:</h5></label>
+                <textarea className="textarea"
                 required
                 value={body}
                 onChange={(e) => setBody(e.target.value)}>
                 </textarea>
-                {!isPending && <button>Add Message</button>}
+                {!isPending && <button className="button">Add Message</button>}
                 {isPending && <button disabled>Thank you for posting!</button>}
                 
             
