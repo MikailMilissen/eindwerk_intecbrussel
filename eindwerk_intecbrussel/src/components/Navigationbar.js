@@ -6,37 +6,42 @@ function Navigation() {
   
   const [picture, setPicture] = useState("images/sla_icon_account.png")
 
- 
+  const [click, setClick] = useState(false);
+  
 
+  const handleClick = () => setClick(!click);
+  
+  const closeMobileMenu = () => setClick(false);
 
   return (
     <div>
       <nav className="navigation">
         <Link to="/" className="text-link">
-          <i i className="fab fa-times "/>
+        <i className = "fa fa-bars" style={{float:"right", margin:"1rem", padding:"0.5rem",}} onClick={handleClick}/>
           <img src="images/sla slogan .png" className="nav__logo" />
           
+    
 
         </Link>
-        <ul className="nav__links" >
-          <Link to="/messageboard" className="text-link" >
+        <ul className= {click ? "nav__links_mobile" : "nav__links"} >
+          <Link to="/messageboard" className="text-link mobile-text" onClick={closeMobileMenu}  >
             <li>MESSAGEBOARD</li>
           </Link>
-          <Link to="/shop" className="text-link" >
+          <Link to="/shop" className="text-link mobile-text" onClick={closeMobileMenu} >
             <li>SHOP</li>
           </Link>
-          <Link to="/artistboard" className="text-link" >
+          <Link to="/artistboard" className="text-link mobile-text" onClick={closeMobileMenu}  >
             <li>ARTISTS</li>
           </Link>
-          <Link to="/about" className="text-link" >
+          <Link to="/about" className="text-link mobile-text" onClick={closeMobileMenu} >
             <li>ABOUT</li>
           </Link>
-          <Link to="/shopcart" >
+          <Link to="/shopcart"onClick={closeMobileMenu} >
           <img
               src="images/sla_icon_shop.png"
             />
           </Link>
-          <Link to="/account" >
+          <Link to="/account"onClick={closeMobileMenu} >
             <img
               src={picture}
             />
