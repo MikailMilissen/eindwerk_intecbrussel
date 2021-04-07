@@ -20,7 +20,21 @@
 }
 
 .grid-container {
+<<<<<<< HEAD
+  display: grid !important;
+  grid-template-columns: auto auto auto !important;
+  grid-template-rows: auto auto !important;
+
+  grid-column-gap: 20px!important;
+  grid-row-gap: 40px!important;
+}
+=======
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> c8cbd41552314118852c5fb6788e94c21f233bd9
+>>>>>>> 39280d71d2d9b6759c3feb0796e12613f9fb9cba
+>>>>>>> 6045bb6cf5988e13391d3a29bbde0aca9dd3629d
