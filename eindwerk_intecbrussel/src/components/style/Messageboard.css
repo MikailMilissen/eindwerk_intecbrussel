@@ -19,11 +19,8 @@
     color: black;
 }
 
-<<<<<<< HEAD
-=======
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
->>>>>>> c8cbd41552314118852c5fb6788e94c21f233bd9
