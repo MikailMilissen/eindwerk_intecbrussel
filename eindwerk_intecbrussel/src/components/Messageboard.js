@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 import Message from './Message';
 import './style/Messageboard.css';
-import './style/Message.css'
 import useFetch from './useFetch';
 
 const Messageboard = () => {
@@ -15,8 +14,8 @@ const Messageboard = () => {
 
             <h1 className="title">MESSAGEBOARD</h1>
 
-            <div className="grid-container">
-            {messages && <Message messages={messages} className='Messages'/> }
+            <div className="all_messages_container">
+            {messages && <Message messages={messages} className='all_messages_div'/> }
             </div>
             
             <Link to='/messageboard/createmessage'>
