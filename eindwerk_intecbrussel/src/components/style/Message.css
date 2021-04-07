@@ -1,22 +1,10 @@
-.messageboard_preview{
-    text-align: left;
-     
-
-    width: 60% !important;
-
-     border-radius: 20px;
-     background: #ffffff;
-     box-shadow:  13px 13px 26px #d9d9d9,
-                  -13px -13px 26px #ffffff;
- }
-
 .message_div{
     text-align: left;
     color: black !important;
 
     padding: 30px;
 
-    min-width: 250px !important;
+    width: 300px !important;
     min-height: 250px !important;
 
     border-radius: 20px;
@@ -47,6 +35,6 @@
 
  h2{
     font-family: poppins;
-    font-weight: bold;
+    font-weight: bold !important;
     color:#A0D4CE;
  }

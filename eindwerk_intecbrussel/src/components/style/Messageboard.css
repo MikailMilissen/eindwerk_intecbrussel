@@ -6,16 +6,37 @@
     text-align: center;
     align-content: center;
 }
-
-
 /* create that awesome grid batch */
 
 .Messageboard{
     width: 100%;
+
+}
+
+.grid-container {
+
+  display: grid !important;
+  grid-template-columns: auto auto auto !important;
+  grid-template-rows: auto auto !important;
+
+  grid-column-gap: 40px!important;
+  grid-row-gap: 10px!important;
+ 
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 30px;
 }
 
 .createmessage__button{
     align-items: center;
     color: black;
+    width: 300px;
+
+}
+
+.create_message{
+  font-family: Reflector;
+  align-items: center;
+  color:black 
 }
 
