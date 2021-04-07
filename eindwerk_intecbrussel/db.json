@@ -34,6 +34,26 @@
       "body": "Hello, if anybody knows of a good intershop, please let me know",
       "author": "Priya",
       "id": 3
+    },
+    {
+      "title": "Making a message",
+      "body": "lore uipsum",
+      "id": 4
+    },
+    {
+      "title": "Making another message",
+      "body": "efesfsefsef",
+      "id": 5
+    },
+    {
+      "title": "I want to ad anoter messagea",
+      "body": "rezezrfsefsef",
+      "id": 6
+    },
+    {
+      "title": "test message",
+      "body": "hi here",
+      "id": 7
     }
   ],
   "shopitems": [
