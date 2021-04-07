@@ -22,7 +22,7 @@ const Messageboard = () => {
             <Link to='/messageboard/createmessage'>
             <img src="images/sla icon .png" className="createmessage__button"/> 
             <br />
-            Create message
+            <p className="create_message">CREATE MESSAGE</p>
             </Link>
         </div>
 );

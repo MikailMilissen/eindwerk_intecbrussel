@@ -4,7 +4,7 @@
 
     padding: 30px;
 
-    width: 250px !important;
+    width: 300px !important;
     min-height: 250px !important;
 
     border-radius: 20px;
@@ -35,23 +35,6 @@
 
  h2{
     font-family: poppins;
-    font-weight: bold;
+    font-weight: bold !important;
     color:#A0D4CE;
- }
-
- .grid-container {
-   align-items: center !important;
-   align-content: center !important;
-   align-self: center !important;
-
-   display: grid !important;
-   grid-template-columns: 1fr 1fr 1fr !important;
-   grid-template-rows: 1fr 1fr!important;
-   grid-template-areas:
-     ". . ."
-     ". . ."
-     ". . .";
- 
-   grid-column-gap: 20px!important;
-   grid-row-gap: 40px!important;
  }
