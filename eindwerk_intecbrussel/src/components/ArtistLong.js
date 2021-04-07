@@ -27,7 +27,6 @@ function ArtistLong() {
         </CardBody>
         </Card>
 
-       
         )}
         
         </div>
