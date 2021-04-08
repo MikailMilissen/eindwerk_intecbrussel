@@ -10,6 +10,7 @@ function ShopItem({shopitems, title}) {
     return (
       <div className="shopitem">
         <h1>{title}</h1>
+
 <div className="single_message_container">
 {shopitems.map((shopitem) => (
   
@@ -23,7 +24,7 @@ function ShopItem({shopitems, title}) {
     </Link>
       <CardSubtitle tag="h6" className="mb-2">Description: {shopitem.body}</CardSubtitle>
       <CardTitle tag="h5">Price: {shopitem.price}</CardTitle>
-      <br />
+
       <Button className="button">buy!</Button>
       </CardBody>
   </Card>
