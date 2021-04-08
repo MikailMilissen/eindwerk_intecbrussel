@@ -13,6 +13,7 @@ const Messageboard = () => {
             { isPending && <div>Loading...</div>}
             
             <h1 className="title">MESSAGEBOARD</h1>
+            
             <Link to='/messageboard/createmessage'>
             <img src="images/sla message icon .png" className="createmessage__button"/>
             </Link>
