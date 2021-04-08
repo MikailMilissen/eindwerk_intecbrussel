@@ -13,15 +13,18 @@
 }
 
 .all_messages_container {
-  padding-left: 15%;
-  padding-right: 15%;
-  width: 100%;
-  padding-top: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  display:block; 
 }
 
 .all_messages_div{
-  max-width: 100vh;
+  max-width: 70vh;
+  min-height: 40vh;
 }
+
+
 
 .createmessage__button{
   align-items: center !important;
@@ -43,3 +46,33 @@
 }
 
 
+
+
+@media screen and (max-width: 870px) {
+  .title{
+    font-size: 24px !important;
+    font-family: Reflector;
+    color:#A0D4CE;
+    margin: 12px 40px 0 30px;
+    width: 100%;
+}
+/* create that awesome grid batch */
+
+.Messageboard{
+    width: 100%;
+    
+}
+
+.all_messages_container {
+  padding-left: 8%;
+  padding-right: 8%;
+ 
+}
+
+.createmessage__button{
+  margin-left: 60px;
+    
+}
+
+  
+}
