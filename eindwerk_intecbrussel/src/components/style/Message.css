@@ -25,10 +25,10 @@
    color: white;
    border:  none !important;
 
-   padding-top: 4px;
-   padding-bottom: 4px;
-   padding-left: 10px;
-   padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .button:hover {
    background-color: #A0D4CE!important;
