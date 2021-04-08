@@ -2,18 +2,47 @@
     margin: 12px 8px 0 8px;
     font-family: Reflector;
     color:#A0D4CE;
-
-    align-self: center;
-    text-align: center;
-    align-content: center;
+    align-self: center !important;
+    text-align: center !important;
+    align-content: center !important;
 }
-
-.item1 {
-    grid-area: myArea;
-  }
   
-  .grid-container {
+  .Shopboard {
+    width: 100%;
+  }
+
+  .all_shopitems__container{
+    padding-left: 21%;
+    padding-right: 21%;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .shop__container {
     display: grid;
-    grid-template-areas: 'myArea myArea . . .' 'myArea myArea . . .';
-    grid-gap: 5px;
+   grid-row-gap: 40px!important;
+   grid-template-rows: auto auto !important;
+   grid-template-columns: auto auto auto !important;
+  }
+ 
+  .all_shopitems_div{
+    max-width: 100vh;
+  }
+
+  .createmessage__button{
+    align-items: center !important;
+    align-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    align-items: center !important;
+  
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 46%;
+    margin-right: 46%;
+  
+  }
+
+  .createmessage__button:hover{
+    border-radius: 50%;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }

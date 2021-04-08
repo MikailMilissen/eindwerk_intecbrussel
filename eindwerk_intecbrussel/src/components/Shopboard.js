@@ -9,26 +9,18 @@ function Shopboard() {
     const {data: shopitems, isPending, error} = useFetch('http://localhost:3000/shopitems') // Change Server Port if needed
 
     return (
-        <div className="grid-container">
-            <div className="shopitemgallery">
-            
-            <h1 className="titel">SHOP</h1>
+        <div className="Shopboard">
+        
+            <h1 className="title">SHOP</h1>
             { isPending && <div>Loading...</div>}
-            <div class="shop__container">
-            {shopitems && <ShopItem shopitems={shopitems} title='This is our shop' /> }
-            </div>
-            </div>
+
             <Link to='/shop/addshopitem'>
-            <img src="images/sla icon .png" className="createmessage__button"/> 
-            <br />
-            Add Product
+            <img src="images/sla item button .png" className="createmessage__button"/> 
             </Link>
-            
 
-
-        {/* <div className ="grid-container">
-        <div className ="shopitemgallery"><ShopItem /></div>
-        </div>  */}
+            <div class="all_shopitems__container">
+            {shopitems && <ShopItem shopitems={shopitems} className='all_shopitems_div'/> }
+            </div>
 
         </div>
 

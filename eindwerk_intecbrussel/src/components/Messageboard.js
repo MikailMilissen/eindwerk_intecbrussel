@@ -11,18 +11,17 @@ const Messageboard = () => {
     return ( 
         <div className='Messageboard'>
             { isPending && <div>Loading...</div>}
-
+            
             <h1 className="title">MESSAGEBOARD</h1>
+            
+            <Link to='/messageboard/createmessage'>
+            <img src="images/sla message icon .png" className="createmessage__button"/>
+            </Link>
 
             <div className="all_messages_container">
             {messages && <Message messages={messages} className='all_messages_div'/> }
             </div>
             
-            <Link to='/messageboard/createmessage'>
-            <img src="images/sla icon.png" className="createmessage__button"/> 
-            <br />
-            <p className="create_message">CREATE MESSAGE</p>
-            </Link>
         </div>
 );
 }

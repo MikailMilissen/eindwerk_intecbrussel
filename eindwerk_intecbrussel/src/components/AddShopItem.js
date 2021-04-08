@@ -28,30 +28,30 @@ function AddShopItem() {
     }
     return (
         <div className="create">
-            <h2>Add a New Item to Sell</h2>
+            <h1>CREATE A NEW ITEM</h1>
             <form onSubmit={handleSubmit}>
-                <label>Item Name: </label>
-                    <input 
+                <label><h5>Item Name:</h5></label>
+                    <input className="textarea"
                     type="text"
                     required
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                     />
-                <label>Price: </label>
-                    <input 
+                <label><h5>Price:</h5></label>
+                    <input className="textarea"
                     type="text"
                     required
                     value={price}
                     onChange={(e) => setPrice(e.target.value)}
                     />
-                <label>Short Description: </label>
-                <textarea
+                <label><h5>Short Description:</h5></label>
+                <textarea className="textarea"
                 required
                 value={body}
                 onChange={(e) => setBody(e.target.value)}>
                 </textarea>
-                {!isPending && <button>Add item</button>}
-                {isPending && <button disabled>Thank you for posting!</button>}
+                {!isPending && <button className="button">Add item</button>}
+                {isPending && <button disabled className="response_button">Thank you for posting!</button>}
             </form>
         </div>
     )

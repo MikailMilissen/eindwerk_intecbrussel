@@ -13,9 +13,9 @@
 }
 
 .all_messages_container {
-  width: 100%;
   padding-left: 15%;
   padding-right: 15%;
+  width: 100%;
   padding-top: 30px;
 }
 
@@ -24,58 +24,22 @@
 }
 
 .createmessage__button{
-    align-items: center;
-    color: black;
-    width: 300px;
+  align-items: center !important;
+  align-content: center !important;
+  text-align: center !important;
+  align-self: center !important;
+  align-items: center !important;
+
+  width: 150px;
+  margin-top: 20px;
+  margin-left: 46%;
+  margin-right: 46%;
 
 }
 
-.create_message{
-  font-family: Reflector;
-  align-items: center;
-  color:black 
+.createmessage__button:hover{
+  border-radius: 50%;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
-@media screen and (max-width: 872px) {
-    .title{
-        margin: auto;
-        font-family: Reflector;
-        width: 100%;
-        font-size: 20px;
-        color:#A0D4CE;
-        text-align: center;
-        align-content: center;
-    }
-        
-    .Messageboard{
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-    
-    }
-    
-    .all_messages_div {
-      display:flex !important;
-      grid-column-gap: 5px!important;
-      grid-row-gap: 5px!important;
-      padding-top: 20px;
-    }
-    
-    img.createmessage__button{
-        color: black;
-        width: 100px;
-        margin-left: auto !important;
-        margin-right: auto !important;
-    }
-
-    
-    .create_message{
-      font-family: Reflector;
-      text-align: center;
-      color:black 
-    }
-    
-  }
-  
