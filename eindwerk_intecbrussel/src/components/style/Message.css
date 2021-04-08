@@ -2,16 +2,13 @@
    display: grid;
    grid-row-gap: 40px!important;
    grid-template-rows: auto auto !important;
-   grid-template-columns: auto auto auto !important;
+   grid-template-columns: auto auto auto !important ;
 }
 
 .single_message_div{
-
    text-align: left;
    color: black !important;
-   
    padding: 30px;
-
    width: 400px !important;
    min-height: 250px !important;
    border-radius: 20px;
@@ -24,7 +21,6 @@
    background-color: black !important;
    color: white;
    border:  none !important;
-
    padding-top: 4px;
    padding-bottom: 4px;
    padding-left: 10px;
@@ -42,3 +38,12 @@ h2{
    font-weight: bold !important;
    color:#A0D4CE;
 }
+
+
+@media screen and (max-width: 600px) {
+   .single_message_container{
+      grid-row-gap: 40px!important;
+      grid-template-rows: auto auto !important;
+      grid-template-columns: auto auto auto !important;
+   }
+ }
