@@ -1,11 +1,14 @@
 import React from 'react'
 import './style/Homepage.css'
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-
+import anime from 'animejs/lib/anime.es.js';
 
 import { Jumbotron, Container } from 'reactstrap';
 
 function Homepage() {
+
+ 
+
     return (
     <div className="home__container">
 
@@ -17,7 +20,6 @@ function Homepage() {
           <br />
         </div>
       </div>
-      
     </div>
     )
 }
