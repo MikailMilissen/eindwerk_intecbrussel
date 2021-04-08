@@ -30,9 +30,6 @@ function ShopItem({shopitems, title}) {
   
       ))}
       </div>
-
-    
-    
       </div>
     )
 }
