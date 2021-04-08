@@ -10,9 +10,9 @@ function ShopItem({shopitems, title}) {
     return (
       <div className="shopitem">
         <h1>{title}</h1>
-
+<div className="single_message_container">
 {shopitems.map((shopitem) => (
-  <div className="single_message_container">
+  
   <Card className="single_message_div">
       <CardImg top src='../../public/images/cat.jpg' alt="Card image cap" />
       <CardBody>
@@ -27,8 +27,9 @@ function ShopItem({shopitems, title}) {
       <Button className="button">buy!</Button>
       </CardBody>
   </Card>
-  </div>
+  
       ))}
+      </div>
 
     
     
