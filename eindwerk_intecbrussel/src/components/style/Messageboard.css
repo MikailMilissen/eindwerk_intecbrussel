@@ -47,32 +47,66 @@
 
 
 
-
-@media screen and (max-width: 870px) {
-  .title{
-    font-size: 24px !important;
-    font-family: Reflector;
-    color:#A0D4CE;
-    margin: 12px 40px 0 30px;
-    width: 100%;
-}
-/* create that awesome grid batch */
-
+@media screen and (max-width: 1172px) {
 .Messageboard{
     width: 100%;
-    
 }
-
 .all_messages_container {
-  padding-left: 8%;
-  padding-right: 8%;
- 
+  padding-left: 6%;
+  padding-right: 9%;
+  width: 800px;
+}
 }
 
-.createmessage__button{
-  margin-left: 60px;
-    
-}
+@media screen and (max-width: 1151px) {
+  .Messageboard{
+      width: 100%;
+  }
+  .all_messages_container {
+    padding-left: 4%;
+    padding-right: 9%;
+    width: 800px;
 
+  }
+  }
   
-}
+@media screen and (max-width: 1065px) {
+    .all_messages_container {
+    padding-left: 0%;
+    padding-right: 9%;
+    width: 800px;
+    
+  }
+  }
+  
+  @media screen and (max-width: 997px) {
+    .all_messages_container {
+    padding-left: 0%;
+    width: 600px;
+    
+  }
+  }
+
+  @media screen and (max-width: 870px){
+    .all_messages_container {
+      padding-left: 12%;
+      width: 600px;
+      
+    }
+  }
+
+  @media screen and (max-width: 740px){
+    .all_messages_container {
+      padding-left: 8%;
+      width: 600px;
+      
+    }
+  }
+
+  @media screen and (max-width: 687px){
+    .all_messages_container {
+      padding-left: 4%;
+      width: 600px;
+      
+    }
+  }
