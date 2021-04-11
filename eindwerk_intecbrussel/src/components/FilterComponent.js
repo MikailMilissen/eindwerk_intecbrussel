@@ -17,7 +17,6 @@ function FilterComponent() {
                     placeholder="SEARCH"
                 />
                 </FormGroup>
-
                 <div>
                     <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
                     <CustomInput type="switch" id="exampleCustomSwitch" name="customSwitch" label="Opvultekst" />
