@@ -1,8 +1,9 @@
 import React,{useState, useEffect}  from "react";
 import { Link } from "react-router-dom";
 import "./style/Navigationbar.css";
+import DropdownMenu from './DropdownMenu'
 
-function Navigation() {
+function Navigation(props) {
   
   const [picture, setPicture] = useState("images/sla_icon_account.png")
 
@@ -11,6 +12,8 @@ function Navigation() {
   const handleClick = () => setClick(!click);
   
   const closeMobileMenu = () => setClick(false);
+
+  const [open, setOpen] = useState(false)
 
   return (
     <div>
@@ -40,11 +43,12 @@ function Navigation() {
               src="images/sla_icon_shop.png"
             />
           </Link>
-          <Link to="/account"onClick={closeMobileMenu} >
+          <DropdownMenu />
+          {/* <Link to="/account"onClick={() => setOpen(!open)} >
             <img
               src={picture}
             />
-          </Link>
+          </Link> */}
         </ul>
       </nav>
     </div>
