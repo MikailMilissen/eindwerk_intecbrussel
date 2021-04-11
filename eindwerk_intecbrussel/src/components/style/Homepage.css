@@ -50,8 +50,8 @@ display: grid
       align-items: center;
       margin-top: 20px;
       position: absolute;
-      top: 40%;
-      left: 55%;
+      top: 20%;
+      left: 35%;
       min-height: 200px;
 
   }
@@ -69,15 +69,17 @@ display: grid
 @media screen and (max-width: 665px) {
     
     #Aboutpage{
-        max-width: 700px;
+        max-width: 1000px;
     }
+
+
 
   .about__text{
      
       margin-top: 20px;
       position: absolute;
-      top: 50%;
-      left: 57%;
+      top: 10%;
+      left: 10%;
       min-height: 200px;
 
   }
@@ -100,8 +102,8 @@ display: grid
      
       margin-top: 20px;
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 10%;
+      left: 10%;
       min-height: 200px;
 
   }
@@ -114,26 +116,4 @@ display: grid
     
   }
 
-  @media screen and (max-width: 525px) {
-    
-    #Aboutpage{
-        max-width: 700px;
-    }
-
-  .about__text{
-     
-      margin-top: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      font-size: 12px;
-
-  }
-
-  .about__text h1{
-    font-family: Reflector;   
-    text-align: center;
-    font-size: small;
- }
-    
-  }
+  
