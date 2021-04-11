@@ -39,6 +39,7 @@ h2 {
   font-family: poppins;
   font-weight: bold !important;
   color: #a0d4ce;
+  height: 2em;
 }
 
 @media screen and (max-width: 1225px) {

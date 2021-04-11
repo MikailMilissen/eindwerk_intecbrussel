@@ -54,6 +54,11 @@
       "title": "test message",
       "body": "hi here",
       "id": 7
+    },
+    {
+      "title": "hello",
+      "body": "sfsef",
+      "id": 8
     }
   ],
   "shopitems": [
@@ -95,6 +100,16 @@
       "title": "illustration print",
       "body": "Emmanuel Sproelants \nA4, 2 color risoprint\nSigned.",
       "id": 6
+    },
+    {
+      "title": "cat touys",
+      "body": "sefesf",
+      "id": 7
+    },
+    {
+      "title": "ezsfsef",
+      "body": "sfsefsefse",
+      "id": 8
     }
   ],
   "artists": [
