@@ -2,11 +2,23 @@
     margin: 12px 8px 0 8px;
     font-family: Reflector;
     color:#A0D4CE;
-
-    align-self: center;
-    text-align: center;
-    align-content: center;
+    align-self: center !important;
+    text-align: center !important;
+    align-content: center !important;
 }
 
+.Artistboard{
+    width: 100%;
+  }
 
+.all_artists__container{
+    padding-left: 18%;
+    padding-right: 18%;
+    width: 100%;
+    padding-top: 30px;
+  }
 
+.all_artists_div{
+    max-width: 100vh;
+    grid-row-gap: 40px !important;
+  }

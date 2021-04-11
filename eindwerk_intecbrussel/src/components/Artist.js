@@ -6,16 +6,22 @@ import { Card, CardBody, Button, CardGroup, CardTitle, CardText, CardImg } from 
 
 function Artist({artists,title}) {
     return (
-        <div>
+        
+    <div className="single_artist_container">
     {artists.map((artists) => (
-        <Card className="Card__Body">
+        <Card className="single_artist_div">
         <CardImg className="Card__img" top width="100%" src="images/drawing2.jpg" alt="Card image cap" />
         <CardBody>
+            
         <Link to={`/artists/${artists.id}`}>
-         <CardTitle tag="h4">{artists.name}</CardTitle>
+         <CardTitle tag="h2">{artists.name}</CardTitle>
         </Link>
-            <CardText className="Card__Text">{artists.bio}</CardText>
+
+        <CardText className="Card__Text">{artists.bio}</CardText>
+
+        <Link to={`/artists/${artists.id}`}>
             <Button className="info__button">More info</Button>
+        </Link>
         </CardBody>
         </Card>
         ))}

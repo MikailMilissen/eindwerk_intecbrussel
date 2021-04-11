@@ -10,16 +10,24 @@ function MessageLong() {
     const {data: messages, isPending, error} = useFetch('http://localhost:3000/messages/' + id) 
 
     return (
+        <div className="messagelong_container">
+
+        <h1 className="title">FULL MESSAGE</h1>
+        <br />
         <div className="message_details">
+            
             {isPending && <div>Loading..</div>}
             {error && <div>{error} </div>}
             {messages && (
                 <article>
                     <h2> {messages.title} </h2>
+                    <br />
                     <p>Written by {messages.author}</p>
                     <div> {messages.body} </div>
                 </article>
             )}
+        </div>
+
         </div>
     )
 }

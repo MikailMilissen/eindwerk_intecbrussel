@@ -4,6 +4,12 @@
  
 }
 
+.text-link :hover {
+  text-decoration: none;
+  color: #a0d4ce;
+ 
+}
+
 .navigation {
   display: flex;
   width: 100%;
@@ -13,7 +19,6 @@
 
 .nav__logo {
   width: 40% !important;
-
   margin-left: 15px !important;
   margin-top: 10px !important;
   font-family: Reflector;
@@ -34,6 +39,14 @@
   margin: 12px 8px 0 8px;
   font-family: Reflector;
   border-top: 2px solid black;
+}
+
+.nav__links a li :hover{
+  display: flex;
+  margin: 12px 8px 0 8px;
+  font-family: Reflector;
+  border-top: 2px solid ;
+  color: #a0d4ce;
 }
 
 .navigation img {

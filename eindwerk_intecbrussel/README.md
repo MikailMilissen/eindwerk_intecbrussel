@@ -19,25 +19,25 @@ Susan Kuijpers
 # Tasks 
 Home
 - Migrate About page to new component (M) ✓
-- Add button to Homepage, redirect to => About page (in big logo hyperlink) (S) V
-- Create footer (S) V
-- create hamburger menu icon (S)
-- Mobile Friendly!! 
+- Add button to Homepage, redirect to => About page (in big logo hyperlink) (S) ✓
+- Create footer (S) ✓
+- create hamburger menu icon (S) ✓
+- Mobile Friendly!! (P)
 - Add a Searchbar (M)
 Messageboard
-- create grid layout(S)
+- create grid layout(S) ✓
 - setup json-server (M) ✓
 - migrate to firebase database(M)
 - build 'new message' component (M) ✓
 - build 'new message' button(S) ✓
 MessageLong
-- Styling (S)
+- Styling (S) ✓
 Shop
-- create grid layout(S) V
+- create grid layout(S) ✓
 - setup json-server (M) ✓
 - migrate to firebase database (M)
 Artists
-- create grid layout(S)
+- create grid layout(S) ✓
 - setup json-server (M) ✓
 - migrate to firebase database (M)
 ShopCart
@@ -45,10 +45,10 @@ ShopCart
 - create shopping cart logo color green(S)
 - change color logo if shopping items in cart (M)
 Account
-- create dropdown with Login en Register button(S)
-- create shopping cart logo color green(S)
+- create dropdown with Login en Register button(M) ✓
+- create account cart logo color green(S) 
 - change color account icon if person logged in to green (M)
-- have fun while doing all of this :)
+- have fun while doing all of this :) ✓
 FilterComponent
 - delete filter and add search bar to navigation (M)
 

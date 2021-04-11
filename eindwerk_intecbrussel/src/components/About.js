@@ -1,12 +1,12 @@
 import React from 'react'
-import './style/Homepage.css'
+import './style/about.css'
 
 
 import { Jumbotron, Container } from 'reactstrap';
 
 function Homepage() {
     return (
-    <div className="home__container">
+    <div className="about__container">
 
       <div id="Aboutpage">
       <br />
@@ -24,8 +24,6 @@ function Homepage() {
         instagram: @slaplatform<br />
         Linkedin: @slaplatform</p>
       </div>
-      
-      <img src="images/drawing1 ZW.jpg" className="about__img"/>
 
       </div>
       
