@@ -39,59 +39,6 @@ display: grid
 }
 
 
-<<<<<<< HEAD
-=======
-/*About rowdiv*/
-#Aboutpage{
-    position: relative;
-}
-
-.about__img{
-    width: 100%;
-    height: auto;
-    opacity: 0.6;
-
-    display: flex;
-    position: relative;
-    z-index: -20;
-
-    align-items: center;
-    align-self: center;
-    text-align: center;
-}
-
-.about__text{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-   margin-bottom: 2rem;
-
-   align-items: center;
-   align-self: center;
-   text-align: center;
-}
-
-.about__text h1{
-   font-family: Reflector; 
-   align-items: center;
-   align-self: center;
-   text-align: center;
-}
-
-.link{
-    color: black;
-    font-weight: bold;
-}
-
-.link :hover{
-    color:#A0D4CE;
-    font-weight: bold;
-}
-
-
->>>>>>> 1dccf095e5da0c7b076dc4e6eab3b2a370f2cece
 
 @media screen and (max-width: 960px) {
     
@@ -103,8 +50,8 @@ display: grid
       align-items: center;
       margin-top: 20px;
       position: absolute;
-      top: 40%;
-      left: 55%;
+      top: 20%;
+      left: 35%;
       min-height: 200px;
 
   }
@@ -122,15 +69,17 @@ display: grid
 @media screen and (max-width: 665px) {
     
     #Aboutpage{
-        max-width: 700px;
+        max-width: 1000px;
     }
+
+
 
   .about__text{
      
       margin-top: 20px;
       position: absolute;
-      top: 50%;
-      left: 57%;
+      top: 10%;
+      left: 10%;
       min-height: 200px;
 
   }
@@ -153,8 +102,8 @@ display: grid
      
       margin-top: 20px;
       position: absolute;
-      top: 50%;
-      left: 50%;
+      top: 10%;
+      left: 10%;
       min-height: 200px;
 
   }
@@ -167,26 +116,4 @@ display: grid
     
   }
 
-  @media screen and (max-width: 525px) {
-    
-    #Aboutpage{
-        max-width: 700px;
-    }
-
-  .about__text{
-     
-      margin-top: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      font-size: 12px;
-
-  }
-
-  .about__text h1{
-    font-family: Reflector;   
-    text-align: center;
-    font-size: small;
- }
-    
-  }
+  
