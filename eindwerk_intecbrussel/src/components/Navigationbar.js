@@ -1,7 +1,7 @@
 import React,{useState, useEffect}  from "react";
 import { Link } from "react-router-dom";
 import "./style/Navigationbar.css";
-import DropdownMenu from './DropdownMenu'
+
 
 function Navigation(props) {
   
@@ -43,12 +43,11 @@ function Navigation(props) {
               src="images/sla_icon_shop.png"
             />
           </Link>
-          <DropdownMenu />
-          {/* <Link to="/account"onClick={() => setOpen(!open)} >
+          <Link to="/account"onClick={() => setOpen(!open)} >
             <img
               src={picture}
             />
-          </Link> */}
+          </Link>
         </ul>
       </nav>
     </div>
