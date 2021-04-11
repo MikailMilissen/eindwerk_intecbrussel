@@ -43,7 +43,7 @@ function Navigation(props) {
               src="images/sla_icon_shop.png"
             />
           </Link>
-          <Link to="/account"onClick={() => setOpen(!open)} >
+          <Link to="/Profile"onClick={() => setOpen(!open)} >
             <img
               src={picture}
             />

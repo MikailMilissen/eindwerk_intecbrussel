@@ -1,0 +1,33 @@
+.card_body {
+    border-radius: 20px;
+    background: #ffffff;
+    box-shadow:  9px 9px 18px #e6e6e6,
+                 -9px -9px 18px #ffffff;
+    
+    padding: 50px !important;             
+}
+
+.h2 .signup {
+    font-family: reflector!important;
+    color:#A0D4CE !important;
+
+    text-align: center;
+}
+
+.formcontrol {
+    border: none !important;
+    border-style: none !important;
+    border-radius: 5px !important;
+
+    height: 38px !important;
+
+    background: #ffffff;
+    box-shadow: inset 5px 5px 10px #e6e6e6,
+                inset -5px -5px 10px #ffffff;
+}
+
+.button {
+    width: 300px !important;
+    background-color: black !important;
+    color: white !important;
+}

@@ -50,24 +50,24 @@ export default function Register() {
         
         <div className="w-100" style={{ maxWidth: "400px" }}>
         <Card>
-        <Card.Body>
-          <h2 className="text-center mb-4">Sign Up</h2>
+        <Card.Body className="card_body">
+          <h2 className="signup">SIGN UP</h2>
           {succes && <Alert variant="succes">{succes}</Alert>}
           {error && <Alert variant="danger">{error}</Alert>}
           <Form onSubmit={handleSubmit}>
             <Form.Group id="email">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" ref={emailRef} required />
+              <Form.Label className="">Email</Form.Label>
+              <Form.Control className="formcontrol" type="email" ref={emailRef} required />
             </Form.Group>
             <Form.Group id="password">
               <Form.Label>Password</Form.Label>
-              <Form.Control type="password" ref={passwordRef} required />
+              <Form.Control className="formcontrol" type="password" ref={passwordRef} required />
             </Form.Group>
             <Form.Group id="password-confirm">
               <Form.Label>Password Confirmation</Form.Label>
-              <Form.Control type="password" ref={passwordConfirmRef} required />
+              <Form.Control className="formcontrol" type="password" ref={passwordConfirmRef} required />
             </Form.Group>
-            <Button disabled={loading} className="w-100" type="submit">
+            <Button disabled={loading} className="button" type="submit">
               Sign Up
             </Button>
           </Form>

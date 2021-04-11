@@ -7,14 +7,7 @@ import { Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 function Account() {
     return (
         <div>
-            <div className="account__links">
-                <Link to="/register" >
-                <img src="images/Register.png" className="register__button"/>
-                </Link>
-                <Link to="/login" >
-                <img src="images/Login.png" className="login__button"/>
-                </Link>
-            </div>
+            
         <Card className="Account__Body">
 
             <CardBody className="card__Body">

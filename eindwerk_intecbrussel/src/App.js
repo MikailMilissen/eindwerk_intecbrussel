@@ -19,6 +19,7 @@ import About from './components/About'
 import AddShopItem from './components/AddShopItem';
 import ShopItemLong from './components/ShopItemLong';
 import ArtistLong from './components/ArtistLong';
+import Profile from './components/Profile';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Route path='/register' exact component={Register} />
         <Route path='/login' exact component={Login} />
         <Route path='/about' exact component={About} />
+        <Route path='/Profile' exact component={Profile} />
         
        </Switch>
     </Router>
