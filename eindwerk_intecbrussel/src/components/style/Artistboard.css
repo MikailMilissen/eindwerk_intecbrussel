@@ -7,7 +7,6 @@
     align-content: center !important;
 }
 
-<<<<<<< HEAD
 .Artistboard{
     width: 100%;
   }
@@ -23,12 +22,3 @@
     max-width: 100vh;
     grid-row-gap: 40px !important;
   }
-=======
-    align-self: center;
-    text-align: center;
-    align-content: center;
-}
-
-
-
->>>>>>> 1dccf095e5da0c7b076dc4e6eab3b2a370f2cece

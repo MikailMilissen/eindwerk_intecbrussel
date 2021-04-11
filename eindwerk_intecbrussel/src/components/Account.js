@@ -13,6 +13,7 @@ function Account() {
             <CardBody className="card__Body">
 
             <CardImg className="card__img" top width="100%" src="/images/drawing3 account foto.jpg" alt="Card image cap" /><br />
+            <br />
             <CardTitle className="account__title" tag="h1">ACCOUNT NAME</CardTitle><br />
 
             <CardText className="card__title">Bio</CardText>

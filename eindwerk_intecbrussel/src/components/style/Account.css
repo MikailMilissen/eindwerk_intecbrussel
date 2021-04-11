@@ -30,10 +30,7 @@
 
 .card__img {
 border-radius: 50% !important;
-width: 50px;
-
-left: 30%;
-right: 25%;
+width: 300px !important;
 }
 
 .account__title{
