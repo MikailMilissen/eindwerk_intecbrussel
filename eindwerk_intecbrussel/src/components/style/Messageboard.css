@@ -97,5 +97,19 @@
   .all_messages_container {
     padding-left: 4%;
     width: 600px;
+    
+  }
+
+  .title{
+    font-family: Reflector;
+    color: #a0d4ce;
+    font-size: 28px;
+    margin-left: 20%;
+  }
+  .createmessage__button {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 48%;
+    margin-right: 40%;
   }
 }

@@ -122,3 +122,16 @@
   }
   
 }
+
+
+@media screen and (max-width: 659px) {
+  .navigation {
+    display: block;
+    width: 120%;
+    align-items: center;
+    
+  }
+
+
+}
+
