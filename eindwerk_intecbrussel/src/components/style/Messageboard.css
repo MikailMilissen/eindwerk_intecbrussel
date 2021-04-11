@@ -1,32 +1,30 @@
-.title{
-    margin: 12px 8px 0 8px;
-    font-family: Reflector;
-    color:#A0D4CE;
-    align-self: center;
-    text-align: center;
-    align-content: center;
+.title {
+  margin: 12px 8px 0 8px;
+  font-family: Reflector;
+  color: #a0d4ce;
+  align-self: center;
+  text-align: center;
+  align-content: center;
 }
 /* create that awesome grid batch */
 
-.Messageboard{
-    width: 100%;
+.Messageboard {
+  width: 100%;
 }
 
 .all_messages_container {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 20px;
-  display:block; 
+  display: block;
 }
 
-.all_messages_div{
+.all_messages_div {
   max-width: 70vh;
   min-height: 40vh;
 }
 
-
-
-.createmessage__button{
+.createmessage__button {
   align-items: center !important;
   align-content: center !important;
   text-align: center !important;
@@ -37,76 +35,67 @@
   margin-top: 20px;
   margin-left: 46%;
   margin-right: 46%;
-
 }
 
-.createmessage__button:hover{
+.createmessage__button:hover {
   border-radius: 50%;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-@media screen and (max-width: 1172px) {
-.Messageboard{
+@media screen and (max-width: 1225px) {
+  .Messageboard {
     width: 100%;
-}
-.all_messages_container {
-  padding-left: 6%;
-  padding-right: 9%;
-  width: 800px;
-}
-}
-
-@media screen and (max-width: 1151px) {
-  .Messageboard{
-      width: 100%;
   }
   .all_messages_container {
-    padding-left: 4%;
+    padding-left: 2%;
     padding-right: 9%;
     width: 800px;
+  }
+}
 
-  }
-  }
-  
-@media screen and (max-width: 1065px) {
-    .all_messages_container {
-    padding-left: 0%;
-    padding-right: 9%;
+@media screen and (max-width: 1079px) {
+  .all_messages_container {
+    padding-left: 1%;
+    padding-right: 98%;
     width: 800px;
-    
   }
+
+  title {
+    font-size: 24px;
   }
-  
-  @media screen and (max-width: 997px) {
-    .all_messages_container {
-    padding-left: 0%;
+}
+
+@media screen and (max-width: 1019px) {
+  .Messageboard {
+    width: 100%;
+    margin-left: 2%;
+  }
+ h1{
+   align-items: center;
+   text-align: center;
+   margin-left: 8%;
+ }
+
+}
+
+@media screen and (max-width: 870px) {
+  .all_messages_container {
+    padding-left: 12%;
     width: 600px;
-    
   }
-  }
+}
 
-  @media screen and (max-width: 870px){
-    .all_messages_container {
-      padding-left: 12%;
-      width: 600px;
-      
-    }
+@media screen and (max-width: 740px) {
+  .all_messages_container {
+    padding-left: 8%;
+    width: 600px;
   }
+}
 
-  @media screen and (max-width: 740px){
-    .all_messages_container {
-      padding-left: 8%;
-      width: 600px;
-      
-    }
+@media screen and (max-width: 687px) {
+  .all_messages_container {
+    padding-left: 4%;
+    width: 600px;
   }
-
-  @media screen and (max-width: 687px){
-    .all_messages_container {
-      padding-left: 4%;
-      width: 600px;
-      
-    }
-  }
+}

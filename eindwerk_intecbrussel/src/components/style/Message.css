@@ -40,15 +40,24 @@ h2 {
   color: #a0d4ce;
 }
 
-@media screen and (max-width: 1172px) {
+@media screen and (max-width: 1225px) {
   .single_message_div {
     padding-left: 6%;
     padding-right: 9%;
     width: 800px;
+    font-size: medium;
   }
+
+  h2 {
+    font-family: poppins;
+    font-weight: bold !important;
+    color: #a0d4ce;
+    font-size: small;
+  }
+
   }
   
-  @media screen and (max-width: 1151px) {
+  @media screen and (max-width: 1079px) {
     .single_message_div {
       padding-left: 4%;
       padding-right: 9%;
@@ -56,11 +65,15 @@ h2 {
     }
     }
     
-  @media screen and (max-width: 1065px) {
+  @media screen and (max-width: 1019px) {
     .single_message_div {
       padding-left: 0%;
       padding-right: 9%;
-      
+   
+    }
+
+    h2{
+      font-size: small;
     }
     }
     
