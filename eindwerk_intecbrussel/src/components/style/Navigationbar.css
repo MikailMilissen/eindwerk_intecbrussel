@@ -19,7 +19,6 @@
 
 .nav__logo {
   width: 40% !important;
-
   margin-left: 15px !important;
   margin-top: 10px !important;
   font-family: Reflector;
@@ -123,3 +122,16 @@
   }
   
 }
+
+
+@media screen and (max-width: 659px) {
+  .navigation {
+    display: block;
+    width: 120%;
+    align-items: center;
+    
+  }
+
+
+}
+
