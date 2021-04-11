@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './style/ShopItem.css'
 import { Link } from 'react-router-dom'
-
+import image from './images/cat.jpg'
 
 
 import { Jumbotron, Button, Card, CardImg, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
@@ -15,7 +15,7 @@ function ShopItem({shopitems, title}) {
 {shopitems.map((shopitem) => (
   
   <Card className="single_message_div">
-      <CardImg top src='../../public/images/cat.jpg' alt="Card image cap" />
+      <CardImg top src={image} alt="Card image cap" />
       <CardBody>
 
     <Link to={`/shopitems/${shopitem.id}`}>
@@ -24,8 +24,8 @@ function ShopItem({shopitems, title}) {
     </Link>
       <CardSubtitle tag="h6" className="mb-2">Description: {shopitem.body}</CardSubtitle>
       <CardTitle tag="h5">Price: {shopitem.price}</CardTitle>
-
-      <Button className="button">buy!</Button>
+      {console.log(shopitem.price)}
+      <Button className="shopItem__button">buy!</Button>
       </CardBody>
   </Card>
   
