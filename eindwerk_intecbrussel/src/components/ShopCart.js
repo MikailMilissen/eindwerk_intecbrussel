@@ -23,8 +23,14 @@ function ShopCart({shopitems, title}) {
             </div>
 
             <br />
-            <Button className="additem__button">Continue Shopping</Button><br />
-            <Button className="additem__button">Checkout Securely</Button><br />
+            <Link to="/shop">
+                <Button className="additem__button" src="">Continue Shopping</Button>
+            </Link><br />
+
+            <Link to="/shop">
+                <Button className="additem__button">Checkout Securely</Button><br />
+            </Link>
+
             <br />
             </CardBody>
     
