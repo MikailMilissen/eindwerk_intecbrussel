@@ -21,7 +21,7 @@
   display: grid;
   grid-row-gap: 40px !important;
   grid-template-rows: auto auto !important;
-  grid-template-columns: 2f 2fr 2fr 2fr !important;
+  grid-template-columns: 2fr 2fr 2fr 2fr !important;
 }
 
 .all_shopitems_div {

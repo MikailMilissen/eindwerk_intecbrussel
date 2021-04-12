@@ -12,13 +12,88 @@
   }
 
 .all_artists__container{
-    padding-left: 18%;
+    padding-left: 10%;
     padding-right: 18%;
-    width: 100%;
+    
     padding-top: 30px;
+    max-width: 100vw;
+  
   }
 
 .all_artists_div{
     max-width: 100vh;
     grid-row-gap: 40px !important;
   }
+
+
+  @media screen and (max-width: 1225px) {
+    .Messageboard {
+      width: 100%;
+    }
+    .all_artists__container {
+      padding-left: 2%;
+      padding-right: 9%;
+      width: 800px;
+    }
+  }
+  
+  @media screen and (max-width: 1079px) {
+    .all_artists__container {
+      padding-left: 1%;
+      padding-right: 98%;
+      width: 800px;
+    }
+  
+    title {
+      font-size: 24px;
+    }
+  }
+  
+  @media screen and (max-width: 1019px) {
+    .Artistboard {
+      width: 100%;
+      margin-left: 2%;
+    }
+   h1{
+     align-items: center;
+     text-align: center;
+     margin-left: 8%;
+   }
+  
+  }
+  
+  @media screen and (max-width: 870px) {
+    .all_artists__container {
+      padding-left: 20%;
+      width: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 740px) {
+    .all_artists__container {
+      padding-left: 8%;
+      width: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 687px) {
+    .all_artists__container {
+      padding-left: 4%;
+      width: 600px;
+      
+    }
+  
+    .title{
+      font-family: Reflector;
+      color: #a0d4ce;
+      font-size: 28px;
+      margin-left: 20%;
+    }
+    .createmessage__button {
+      width: 100px;
+      margin-top: 20px;
+      margin-left: 48%;
+      margin-right: 40%;
+    }
+  }
+  
