@@ -13,7 +13,7 @@ function AddShopItem() {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        const message = {title,body}
+        const message = {title,body, price}
         console.log(message)
         fetch('http://localhost:3000/shopitems', {
             method: 'POST',
@@ -44,6 +44,7 @@ function AddShopItem() {
                     value={price}
                     onChange={(e) => setPrice(e.target.value)}
                     />
+                {console.log(price)}
                 <label><h5>Short Description:</h5></label>
                 <textarea className="textarea"
                 required

@@ -6,7 +6,7 @@ import image from './images/cat.jpg'
 
 import { Jumbotron, Button, Card, CardImg, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
 
-function ShopItem({shopitems, title}) {
+function ShopItem({shopitems, title, price}) {
     return (
       <div className="shopitem">
         <h1>{title}</h1>
@@ -23,7 +23,7 @@ function ShopItem({shopitems, title}) {
       <br />
     </Link>
       <CardSubtitle tag="h6" className="mb-2">Description: {shopitem.body}</CardSubtitle>
-      <CardTitle tag="h5">Price: {shopitem.price}</CardTitle>
+      <CardTitle tag="h5">Price: €{shopitem.price}</CardTitle>
       {console.log(shopitem.price)}
       <Button className="shopItem__button">buy!</Button>
       </CardBody>

@@ -34,38 +34,13 @@
       "body": "Hello, if anybody knows of a good intershop, please let me know",
       "author": "Priya",
       "id": 3
-    },
-    {
-      "title": "Making a message",
-      "body": "lore uipsum",
-      "id": 4
-    },
-    {
-      "title": "Making another message",
-      "body": "efesfsefsef",
-      "id": 5
-    },
-    {
-      "title": "I want to ad anoter messagea",
-      "body": "rezezrfsefsef",
-      "id": 6
-    },
-    {
-      "title": "test message",
-      "body": "hi here",
-      "id": 7
-    },
-    {
-      "title": "hello",
-      "body": "sfsef",
-      "id": 8
     }
   ],
   "shopitems": [
     {
       "title": "Cat T-shirt",
       "image": "",
-      "price": "€ 300",
+      "price": "300",
       "body": "This is a one of one version of my cat Poster",
       "author": "Mikail",
       "id": 1
@@ -73,7 +48,7 @@
     {
       "title": "Javascript Poster",
       "image": "",
-      "price": "€ 25",
+      "price": "25",
       "body": "I made this poster as a way for people to remind themselves the small coding sentences of javascript",
       "author": "Susan",
       "id": 2
@@ -81,35 +56,28 @@
     {
       "title": "Abstract painting",
       "image": "",
-      "price": "€ 3.000.000",
+      "price": "3.000.000",
       "body": "A signed painting of mine that a made a while ago",
       "author": "Priya",
       "id": 3
     },
     {
       "title": "sculptuur",
+      "price": "233.000.000",
       "body": "Susan Kuijpers\nAnother Sunday morning, 2019\nglazed ceramic\n13 x 33 x 40 cm",
       "id": 4
     },
     {
       "title": "Painting",
+      "price": "2.54",
       "body": "The Red Fox, 2019 - 2020\noil and acrylic on canvas\n200 x 180 cm",
       "id": 5
     },
     {
       "title": "illustration print",
+      "price": "20",
       "body": "Emmanuel Sproelants \nA4, 2 color risoprint\nSigned.",
       "id": 6
-    },
-    {
-      "title": "cat touys",
-      "body": "sefesf",
-      "id": 7
-    },
-    {
-      "title": "ezsfsef",
-      "body": "sfsefsefse",
-      "id": 8
     }
   ],
   "artists": [
